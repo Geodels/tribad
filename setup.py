@@ -54,7 +54,7 @@ setup(name='tribad',
                         'c/triangle.c',
                         'tribad/core.pyx'
                     ],
-                    include_dirs=['c'],
+                    include_dirs=['c','tribad'],
                     define_macros=define_macros)
       ]
       )
